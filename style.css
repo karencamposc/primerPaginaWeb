@@ -1,0 +1,32 @@
+body{ 
+/*Poner color a las letras*/
+color:rgb(97, 1, 52);
+/*Poner color al fondo*/
+    background: linear-gradient(rgb(175, 175, 240), pink);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*Tipo de letra*/
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bolder;
+}
+
+h1{
+    color:rgb(83, 0, 160);
+    font-size: 60px;
+}
+h3{
+    color:rgb(23, 23, 71);
+}
+
+img{
+    width: 300px;
+    height: 250px;
+    padding: 25px;
+    margin: 20px;
+}
+
+footer{
+    background-color: rgb(224, 209, 231);
+    padding: 7px;
+}
